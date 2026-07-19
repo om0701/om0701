@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 
 DATA_DIR = Path("data")
 DEFAULT_USERNAME = "om0701"
-CONTRIBUTION_URL = "https://github.com/users/{username}/contributions"
+CONTRIBUTION_URL = "https://github.com/users/om0701/contributions"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; profile-readme-bot/1.0)",

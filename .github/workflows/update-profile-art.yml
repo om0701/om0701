@@ -37,7 +37,7 @@ jobs:
         run: python scripts/make_info_card.py
 
       - name: Fetch contributions
-        run: python scripts/fetch_contributions.py --username om0701
+        run: python scripts/fetch_contributions.py
 
       - name: Render heatmap
         run: python scripts/render_heatmap_svg.py
